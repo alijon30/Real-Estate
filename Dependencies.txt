@@ -1,0 +1,30 @@
+Dependencies for Backend:
+--django #Main Framework
+--djangorestframework
+--django-cors-headers #Utility to Communicate with Frontend
+--djangorestframework-simplejwt #handle authentication
+--Pillow #handle Image upload
+--psycopg2  #Communicate to PostgreSQL database
+--psycopg2-binary  #Communicate to PostgreSQL database
+
+//django-admin startproject real_estate . #to create an backend app
+
+/*
+
+
+
+*/
+
+
+Dependencies for Frontend:
+--react-router-dom
+--redux
+--redux-thunk
+--react-redux
+--redux-devtools-extension
+--node-sass 
+--@reduxjs/toolkit
+--@types/uuid
+--axios
+--react-helmet
+install these with --legacy-peer-deps to avoid dependecy conflicts
